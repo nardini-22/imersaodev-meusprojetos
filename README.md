@@ -1,2 +1,2 @@
-# imersaodev-meusprojetos
-Esses são os projetos que eu desenvolvi durante o curso Imersão.dev, oferecido pela Alura.
+# Imersaodev-Meus projetos
+Esses são os projetos que eu desenvolvi durante o curso da Imersão.dev, oferecido pela Alura.
