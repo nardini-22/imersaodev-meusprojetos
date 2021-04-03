@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://nardini-22.github.io/imersaodev-meusprojetos/Aula1/estilo.css">
+    <title>Conversos de moedas</title>
+</head>
+<body>
+    <section>
+    <div class="container">
+        <h1 class="page-title">
+          Conversor de moedas
+        </h1>
+        <p class="page-subtitle">
+          Descubra os valores das moedas pelo mundo
+        </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+        <form action="" onsubmit="return false"> <!-- Impede que o formulário seja enviado -->
+        <div id='conteudo'>
+          <p>Insira o valor que deseja converter: </p>
+            <input type="number" id="valor" required></input>
+            <div id='buttons'>
+              <p>Selecione qual conversão você deseja fazer: </p>
+              <input onclick="converter('dolar')" type="submit" id='btn' value="Dolar"></input>
+              <input onclick="converter('euro')" type="submit" id='btn' value="Euro"></input>
+              <input onclick="converter('libra')" type="submit" id='btn' value="Libra"></input>
+              <input onclick="converter('bitcoin')" type="submit" id='btn' value="Bitcoin"></input>
+            </div>
+        </form>
+        </div>
+        <div id='resultado'>
+
+        </div>
+        <footer>
+          <p>&copy;Arsan.js</p>
+        </footer>
+      </div>
+        <a href="https://alura.com.br/" target="_blank">
+          <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+          </a>
+          
+  </section>
+<script src="https://nardini-22.github.io/imersaodev-meusprojetos/Aula1/script.js"></script>
+</body>
+</html>
