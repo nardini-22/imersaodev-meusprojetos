@@ -6,57 +6,67 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     color: white;
-  }
-  
-  .container {
+}
+
+.container {
     text-align: center;
     padding: 20px;
     height: 100vh;
-  }
-  
-  .page-title {
+}
+
+.page-title {
     color: #ffffff;
     margin: 0 0 5px;
-  }
-  
-  .page-subtitle {
+}
+
+.page-subtitle {
     color: #ffffff;
     margin-top: 5px;
-  }
-  
-  .page-logo {
+}
+
+.page-logo {
     width: 200px;
-  }
-  
-  .alura-logo {
+}
+
+.alura-logo {
     width: 40px;
     position: absolute;
     top: 10px;
-    right:10px;
-  }
-
-#conteudo{
-  text-align: center;
+    right: 10px;
 }
 
-#radios{
-  margin: 15px;
+#conteudo {
+    text-align: center;
 }
 
-section{
-  background-color: gray;
-  width: 500px;
-  height: 500px;
-  margin: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid black;
-  border-radius: 10px;
-  -webkit-box-shadow: 3px 6px 2px 1px #000000; 
-  box-shadow: 3px 6px 2px 1px #000000;
+section {
+    max-height: 560px;
+    background-color: gray;
+    width: 500px;
+    min-height: 500px;
+    margin: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 6px 2px 1px #000000;
+    box-shadow: 3px 6px 2px 1px #000000;
 }
 
-footer{
-  text-align: center;
-  padding: 75px;
+footer {
+    text-align: center;
+    margin-top: auto;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 100%;
+}
+
+#btnLimpar{
+    margin-top: 20px;
 }
