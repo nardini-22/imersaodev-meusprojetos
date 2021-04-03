@@ -24,7 +24,7 @@ function converter(opcao){
             break;
     }
     if(input){
-        divResultado.innerHTML = "<p>Valor inserido: " + input + "</p>" 
+        divResultado.innerHTML = "<p>Valor inserido: R$" + input.toFixed(2) + "</p>" 
         divResultado.innerHTML += "<p>Valor da conversão: " + result + "</p>"   
     }
 }
