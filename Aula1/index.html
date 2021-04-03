@@ -20,13 +20,15 @@
         <form action="" onsubmit="return false"> <!-- Impede que o formulário seja enviado -->
         <div id='conteudo'>
           <p>Insira o valor que deseja converter: </p>
-            <input type="number" id="valor" required></input>
+            <input type="number" id="valor" required step="0.01" min=0/>
             <div id='buttons'>
               <p>Selecione qual conversão você deseja fazer: </p>
               <input onclick="converter('dolar')" type="submit" id='btn' value="Dolar"></input>
               <input onclick="converter('euro')" type="submit" id='btn' value="Euro"></input>
               <input onclick="converter('libra')" type="submit" id='btn' value="Libra"></input>
               <input onclick="converter('bitcoin')" type="submit" id='btn' value="Bitcoin"></input>
+              <input onclick="limpar()" type="submit" id='btnLimpar' value="Limpar"></input>
+              
             </div>
         </form>
         </div>
